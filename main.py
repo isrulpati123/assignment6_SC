@@ -9,6 +9,10 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
+    elif operator == "*":
+        result = multi(data_1, data_2)
+    elif operator == "/":
+        result = division(data_1, data_2)
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
